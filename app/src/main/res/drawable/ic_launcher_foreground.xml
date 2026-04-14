@@ -1,0 +1,39 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Main Locomotive Body - Safe zone is 66x66 (from 21 to 87) -->
+    <!-- We'll center the train locomotive head -->
+
+    <!-- Locomotive Cab -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M35,45h38v30h-38z" />
+
+    <!-- Front Boiler/Nose -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,40h32c3,0 5,2 5,5v5h-42v-5c0,-3 2,-5 5,-5z" />
+
+    <!-- Windows -->
+    <path
+        android:fillColor="#FF5722"
+        android:pathData="M40,50h12v12h-12z M56,50h12v12h-12z" />
+
+    <!-- Tracks/Base -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,75h48v5h-48z" />
+
+    <!-- Repair/Wrench Symbol (Representing Restoration/Management) -->
+    <path
+        android:fillColor="#FF5722"
+        android:pathData="M50,70l4,4l-4,4l-4,-4z" />
+
+    <!-- Cowcatcher -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,80l-4,6h52l-4,-6z" />
+
+</vector>
